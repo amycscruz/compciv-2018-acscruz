@@ -27,7 +27,7 @@ def by_longest_length():
     """
     def length(x):
         return len(x)
-    return sorted(STRING_LIST, key=length)
+    return sorted(STRING_LIST, key=length, reverse=True)
 
 
 def filter_and_sort_number_strings():

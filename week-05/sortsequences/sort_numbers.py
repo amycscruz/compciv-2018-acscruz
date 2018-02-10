@@ -1,6 +1,15 @@
 from datastubs import NUMBER_LIST
 
 
+print (NUMBER_LIST)
+def inverse(x):
+    return 1/x
+
+def wtf(x):
+    for x in NUMBER_LIST:
+        return len(x)
+
+print (sorted(NUMBER_LIST, key=inverse))
 
 def reverse_numerical_order():
     """
@@ -29,8 +38,7 @@ def as_inverse_number():
     The bigger the number, the smaller its inverse, and vice versa
     """
     def inverse(x):
-        for x in NUMBER_LIST:
-            return 1/x
+        return 1/x
     return sorted(NUMBER_LIST, key=inverse)
     
 
