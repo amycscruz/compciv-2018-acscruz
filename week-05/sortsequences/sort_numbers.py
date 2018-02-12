@@ -1,16 +1,6 @@
 from datastubs import NUMBER_LIST
 
 
-print (NUMBER_LIST)
-def inverse(x):
-    return 1/x
-
-def wtf(x):
-    for x in NUMBER_LIST:
-        return len(x)
-
-print (sorted(NUMBER_LIST, key=inverse))
-
 def reverse_numerical_order():
     """
     Sort the list of numbers but in reverse order
