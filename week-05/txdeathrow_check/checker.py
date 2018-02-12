@@ -34,7 +34,7 @@ def get_and_parse_inmate_rows():
     rows=[]
     for x in tag:
         rows.append(x)
-    return rows
+    return rows[1:]
 
 
 def count_inmates():
